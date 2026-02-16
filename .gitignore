@@ -1,0 +1,5 @@
+/target
+/secret_wallet.txt
+.env
+**/*.rs.bk
+Cargo.lock
