@@ -1,0 +1,16 @@
+#!/usr/bin/expect -f
+set timeout 10
+spawn cargo run
+expect "Command Center - Choose your operation:"
+send "\r"
+expect "How many shadow wallets do you want to generate?"
+send "3\r"
+expect "Press Enter to continue..."
+send "\r"
+expect "Command Center - Choose your operation:"
+send "\033\[B\r"
+expect "Press Enter to continue..."
+send "\r"
+expect "Command Center - Choose your operation:"
+send "\033\[B\033\[B\r"
+expect eof
