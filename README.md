@@ -1,5 +1,8 @@
 # Ghost Army Manager (GAM-rs) 🦀👻⚔️
 
+[![CI](https://github.com/padma02-drmn/ghost-army-manager/actions/workflows/ci.yml/badge.svg)](https://github.com/padma02-drmn/ghost-army-manager/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A high-performance CLI tool for managing multiple "Shadow Wallets" for airdrop farming, testnet automation, and large-scale blockchain interaction.
 
 ## 🚀 Key Features
@@ -25,3 +28,20 @@ This tool handles private keys. Never commit your `secret_wallet.txt` or `.env` 
 
 ---
 *Created by: Kadek Padma Darmawan*
+
+## 🔧 Usage
+
+```bash
+# Example: show help
+cargo run -- --help
+
+# Build release binary
+cargo build --release
+```
+
+## ⚠️ Disclaimer
+
+This repository is shared for **educational and legitimate testing/automation** purposes.
+Do not use it to violate terms of service, abuse networks, or run unauthorized activity.
+You are responsible for complying with local laws and the rules of any chain/testnet you interact with.
+
